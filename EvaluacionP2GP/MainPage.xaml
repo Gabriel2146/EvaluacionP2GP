@@ -13,10 +13,13 @@
 
             <Label Text = "Ingrese su numero de telefono"
                    x:Name="lbNumeroTelefonicoGP"/>
+
+            <Entry x:Name="txtNumeroTelefonicoGP"
+                   Placeholder ="ejmplo: +593 987081107"
+                   />
             
-            <Entru
-            
-            
+
+
 
 
 
