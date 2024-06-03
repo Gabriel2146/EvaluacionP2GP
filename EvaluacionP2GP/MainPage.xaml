@@ -13,7 +13,7 @@
                    x:Name="lbNumeroTelefonicoGP" />
 
             <Entry x:Name="txtNumeroTelefonicoGP"
-                   Placeholder=""
+                   Placeholder="xxxxxxxxxx"
                    Keyboard="Numeric" />
 
             <Label Text="Seleccione el operador:" 
