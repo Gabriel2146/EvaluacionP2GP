@@ -37,6 +37,12 @@
             <RadioButton 
                 Content="3" Value="3" GroupName="recargaGP" 
                 CheckedChanged="OnCheckedChangedGP" />
+            <RadioButton 
+                Content="5" Value="5" GroupName="recargaGP" 
+                CheckedChanged="OnCheckedChangedGP"  IsChecked="True"/>
+            <RadioButton 
+                Content="10" Value="10" GroupName="recargaGP" 
+                CheckedChanged="OnCheckedChangedGP" />
 
         </VerticalStackLayout>
     </ScrollView>
