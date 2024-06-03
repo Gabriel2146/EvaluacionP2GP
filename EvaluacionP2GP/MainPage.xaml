@@ -5,20 +5,18 @@
              Title="Recargatelefonica">
 
     <ScrollView>
-        <VerticalStackLayout 
-            padding = "30,0"
-            Spacing = "25">
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
 
-            //info recarga
-
-            <Label Text = "Ingrese su numero de telefono"
-                   x:Name="lbNumeroTelefonicoGP"/>
+            <Label Text="Ingrese el número de teléfono:" 
+                   x:Name="lbNumeroTelefonicoGP" />
 
             <Entry x:Name="txtNumeroTelefonicoGP"
-                   Placeholder ="ejmplo: +593 987081107"
-                   Keyboard ="Numeric"/>
+                   Placeholder="ejem +593 987081107"
+                   Keyboard="Numeric" />
 
-            <Label Text="Operador"
+            <Label Text="Seleccione el operador:" 
                    x:Name="lbOperadorGP"/>
 
             <Picker x:Name="pkOperadorGP">
@@ -31,26 +29,24 @@
                 </Picker.ItemsSource>
             </Picker>
 
-            <Label Text="Seleccione el Vlaor a recargar: "
+            <Label Text="Seleccione el valor de la recarga:" 
                    x:Name="lbValorRecargaGP"/>
 
-            <RadioButton 
-                Content="3" Value="3" GroupName="recargaGP" 
-                CheckedChanged="OnCheckedChangedGP" />
-            <RadioButton 
-                Content="5" Value="5" GroupName="recargaGP" 
-                CheckedChanged="OnCheckedChangedGP"  IsChecked="True"/>
-            <RadioButton 
-                Content="10" Value="10" GroupName="recargaGP" 
-                CheckedChanged="OnCheckedChangedGP" />
+            <RadioButton Content="3" Value="3" 
+                         GroupName="recargaGP" 
+                         CheckedChanged="OnCheckedChangedGP" />
+            <RadioButton Content="5" Value="5" 
+                         GroupName="recargaGP" 
+                         CheckedChanged="OnCheckedChangedGP" IsChecked="True" />
+            <RadioButton Content="10" Value="10" 
+                         GroupName="recargaGP" 
+                         CheckedChanged="OnCheckedChangedGP" />
 
-            <Label 
-                x:Name="lbSeleccionGP"
-                Text ="Ha seleccionado recarga de: $5 USD"/>
+            <Label x:Name="lbSeleccionGP" Text="Ha seleccionado una recarga de: $5 dólares" />
 
-            <Button 
-                Text="Recargar"
-                x:Name="btnRecargarGP"/>
+            <Button Text="Recargar" 
+                    x:Name="btnRecargarGP"
+                    Clicked="OnRecargarClickedGP" />
 
         </VerticalStackLayout>
     </ScrollView>
