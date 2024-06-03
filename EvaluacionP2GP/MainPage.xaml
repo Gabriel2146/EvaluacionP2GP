@@ -17,7 +17,10 @@
             <Entry x:Name="txtNumeroTelefonicoGP"
                    Placeholder ="ejmplo: +593 987081107"
                    Keyboard ="Numeric"/>
-            
+
+            <Label Text="Operador"
+                   x:Name="lbOperadorGP"/>
+
 
 
 
