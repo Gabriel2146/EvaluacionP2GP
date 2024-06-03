@@ -13,7 +13,7 @@
                    x:Name="lbNumeroTelefonicoGP" />
 
             <Entry x:Name="txtNumeroTelefonicoGP"
-                   Placeholder="ejem +593 987081107"
+                   Placeholder=""
                    Keyboard="Numeric" />
 
             <Label Text="Seleccione el operador:" 
