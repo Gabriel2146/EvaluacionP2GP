@@ -44,6 +44,14 @@
                 Content="10" Value="10" GroupName="recargaGP" 
                 CheckedChanged="OnCheckedChangedGP" />
 
+            <Label 
+                x:Name="lbSeleccionGP"
+                Text ="Ha seleccionado recarga de: $5 USD"/>
+
+            <Button 
+                Text="Recargar"
+                x:Name="btnRecargarGP"/>
+
         </VerticalStackLayout>
     </ScrollView>
 
