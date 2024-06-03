@@ -21,12 +21,16 @@
             <Label Text="Operador"
                    x:Name="lbOperadorGP"/>
 
-
-
-
-
-
-
+            <Picker x:Name="pkOperadorGP">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Movistar</x:String>
+                        <x:String>Claro</x:String>
+                        <x:String>Tuenti</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+                   
         </VerticalStackLayout>
     </ScrollView>
 
