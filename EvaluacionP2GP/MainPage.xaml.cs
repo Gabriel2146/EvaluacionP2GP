@@ -8,7 +8,7 @@ namespace EvaluacionP2GP
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
+        private string _selectedAmount = 5;
 
         public MainPage()
         {
