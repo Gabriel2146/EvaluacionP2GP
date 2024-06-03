@@ -42,7 +42,7 @@
                          GroupName="recargaGP" 
                          CheckedChanged="OnCheckedChangedGP" />
 
-            <Label x:Name="lbSeleccionGP" Text="Ha seleccionado una recarga de: $5 dólares" />
+            <Label x:Name="lbSeleccionGP" Text="Ha seleccionado una recarga de: $5 USD" />
 
             <Button Text="Recargar" 
                     x:Name="btnRecargarGP"
