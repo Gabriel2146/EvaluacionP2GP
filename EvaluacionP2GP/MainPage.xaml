@@ -8,8 +8,14 @@
         <VerticalStackLayout 
             padding = "30,0"
             Spacing = "25">
-            
-            
+
+            //info recarga
+
+            <Label Text = "Ingrese su numero de telefono"
+                   x:Name="lbNumeroTelefonicoGP"/>
+
+
+
 
         </VerticalStackLayout>
     </ScrollView>
