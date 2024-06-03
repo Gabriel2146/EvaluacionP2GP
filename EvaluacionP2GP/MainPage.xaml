@@ -5,7 +5,13 @@
              Title="Recargatelefonica">
 
     <ScrollView>
-        
+        <VerticalStackLayout 
+            padding = "30,0"
+            Spacing = "25">
+            
+            
+
+        </VerticalStackLayout>
     </ScrollView>
 
 </ContentPage>
