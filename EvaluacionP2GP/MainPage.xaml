@@ -30,7 +30,10 @@
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
-                   
+
+            <Label Text="Seleccione el Vlaor a recargar: "
+                   x:Name="lbValorRecargaGP"/>
+
         </VerticalStackLayout>
     </ScrollView>
 
